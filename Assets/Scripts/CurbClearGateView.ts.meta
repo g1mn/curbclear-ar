@@ -1,0 +1,94 @@
+- !<AssetImportMetadata/4885c3e2-dc97-4afb-9aad-b3de6291b4ca>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 361bd822-afe2-4561-a037-40e20c79ba49
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 361bd822-afe2-4561-a037-40e20c79ba49
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 76b7728d-b283-47c2-be6d-aa41e60dbe4d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/76b7728d-b283-47c2-be6d-aa41e60dbe4d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 980e9d6e-27c2-4a79-a306-42de83f31f4a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    arch: false
+    archHeightCm: false
+    bufferLeft: false
+    bufferRight: false
+    bufferStripCm: false
+    corridorLengthCm: false
+    floorRail: false
+    gapLabelSize: false
+    leftPost: false
+    postColor: false
+    postDiameterCm: false
+    postHeightCm: false
+    rightPost: false
+    thresholdBar: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - leftPost: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rightPost: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      floorRail: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bufferLeft: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      bufferRight: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      thresholdBar: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      arch: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      postHeightCm: !<float> 55.000000
+      postDiameterCm: !<float> 5.000000
+      corridorLengthCm: !<float> 60.000000
+      bufferStripCm: !<float> 5.000000
+      archHeightCm: !<float> 40.000000
+      postColor: !<Vec4> {x: 0.900000, y: 0.900000, z: 0.950000, w: 1.000000}
+      gapLabelSize: !<float> 200.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CurbClearGateView – 1:1 floor gate</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">References</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject leftPost {"hint":"Left obstacle boundary post (cylinder)"}'
+    - '// @input SceneObject rightPost {"hint":"Right obstacle boundary post (cylinder)"}'
+    - '// @input SceneObject floorRail {"hint":"Inner floor rail whose width equals the active profile"}'
+    - '// @input SceneObject bufferLeft {"hint":"Left 5 cm safety buffer strip"}'
+    - '// @input SceneObject bufferRight {"hint":"Right 5 cm safety buffer strip"}'
+    - '// @input SceneObject thresholdBar {"hint":"Ground threshold bar across the profile width"}'
+    - '// @input SceneObject arch {"hint":"Low arch lintel across the profile width"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float postHeightCm = 55 {"hint":"Obstacle post height in cm", "widget":"slider", "min":20, "max":120, "step":1}'
+    - '// @input float postDiameterCm = 5 {"hint":"Obstacle post diameter in cm", "widget":"slider", "min":2, "max":15, "step":0.5}'
+    - '// @input float corridorLengthCm = 60 {"hint":"Length of the floor corridor along the walking direction, in cm", "widget":"slider", "min":20, "max":200, "step":5}'
+    - '// @input float bufferStripCm = 5 {"hint":"Width of each side safety buffer strip in cm", "widget":"slider", "min":1, "max":15, "step":0.5}'
+    - '// @input float archHeightCm = 25 {"hint":"Height of the arch lintel above the floor in cm", "widget":"slider", "min":10, "max":120, "step":1}'
+    - '// @input vec4 postColor = "{0.9,0.9,0.95,1}" {"hint":"Color of the two obstacle posts", "widget":"color"}'
+    - '// @input float gapLabelSize = 280 {"hint":"Dimension-line label text size (scaled for a ~200 cm view distance)", "widget":"slider", "min":60, "max":320, "step":5}'
+    - '// @ui {"widget":"group_end"}'

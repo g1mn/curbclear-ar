@@ -1,0 +1,30 @@
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json
+
+# Lens Studio caches and per-user editor state (rebuilt when the project opens)
+Cache/
+Workspaces/
+PluginsUserPreferences/
+Support/
+*.lock
+.virtual-scene.json
+
+# Device signing key (local only, never commit)
+*.pem
+
+# Local agent and editor config (local paths, MCP tokens, local symlinks)
+.codex/
+.cursor/
+.vscode/
+.claude/skills/
+.agents/
+
+.DS_Store

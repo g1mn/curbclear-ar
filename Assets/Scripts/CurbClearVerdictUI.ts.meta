@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/4283c390-9fef-4642-b3b6-b9a2a386070c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0a3e205e-34ae-4e61-856c-f83a67410abf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0a3e205e-34ae-4e61-856c-f83a67410abf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a22e1a89-5ce7-4ed5-917a-73a4f5aa8192
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a22e1a89-5ce7-4ed5-917a-73a4f5aa8192>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 0c7f2805-69f4-49be-8a24-644012703da8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    heightCm: false
+    initialText: false
+    viewDistanceCm: false
+    widthCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - widthCm: !<float> 28.000000
+      heightCm: !<float> 6.000000
+      viewDistanceCm: !<float> 150.000000
+      initialText: 102 cm · PASS (+17 cm)
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">CurbClearVerdictUI – 3D verdict pill</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Settings</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float widthCm = 52 {"hint":"Pill width in cm", "widget":"slider", "min":10, "max":50, "step":0.5}'
+    - '// @input float heightCm = 11 {"hint":"Pill height in cm", "widget":"slider", "min":2, "max":15, "step":0.5}'
+    - '// @input float viewDistanceCm = 200 {"hint":"Distance from the user in cm; text size scales with it so it reads the same", "widget":"slider", "min":50, "max":300, "step":5}'
+    - '// @input string initialText = "PASS +17 cm" {"hint":"Initial pill text before the first state is pushed"}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,13 @@
+{
+  "enabledPlugins": {
+    "ls-clad@ls-extensions": true
+  },
+  "extraKnownMarketplaces": {
+    "ls-extensions": {
+      "source": {
+        "source": "github",
+        "repo": "lens-studio-devs/ls-extensions"
+      }
+    }
+  }
+}
