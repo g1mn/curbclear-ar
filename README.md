@@ -6,7 +6,7 @@
 
 > **Honest scope.** Everything here runs in the **Lens Studio 5.23.2 Preview** (device SPECS 27, Interactive Preview). It has not run on real Spectacles yet, and nothing is measured: the gap widths are stand-ins that you step through with a button.
 
-- Demo video (under 3 minutes): _link added after upload_
+- Demo video (2:28): https://youtu.be/uyuuZq2TPGQ
 - Devpost: _link added after submission_
 - Built for **Learn AR with SPECS** (Devpost, 2026)
 
